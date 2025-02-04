@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-lexend), sans-serif;
+}
+
+.container {
+  max-width: 1614px;
+}
+
+.bg-event {
+  background: url('/images/event-background.jpg') center / cover no-repeat;
+}
+
+.bg-card {
+  background: url('/images/event-1-background.png') center / cover no-repeat;
+}
